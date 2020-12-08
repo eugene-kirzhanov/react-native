@@ -1,7 +1,9 @@
 {
   "name": "react-native",
-  "version": "0.61.5-jitsi.2",
-  "bin": "./cli.js",
+  "version": "0.61.5-jitsi.1",
+  "bin": {
+    "react-native": "cli.js"
+  },
   "description": "A framework for building native apps using React",
   "license": "MIT",
   "repository": {

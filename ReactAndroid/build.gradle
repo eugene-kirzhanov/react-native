@@ -308,7 +308,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion(16)
+        minSdkVersion(21)
         targetSdkVersion(28)
         versionCode(1)
         versionName("1.0")
@@ -361,6 +361,7 @@ dependencies {
     api("androidx.appcompat:appcompat:1.0.2")
     api("com.facebook.fresco:fresco:${FRESCO_VERSION}")
     api("com.facebook.fresco:imagepipeline-okhttp3:${FRESCO_VERSION}")
+    api("com.facebook.fresco:ui-common:${FRESCO_VERSION}")
     api("com.facebook.soloader:soloader:${SO_LOADER_VERSION}")
     api("com.google.code.findbugs:jsr305:3.0.2")
     api("com.squareup.okhttp3:okhttp:${OKHTTP_VERSION}")
